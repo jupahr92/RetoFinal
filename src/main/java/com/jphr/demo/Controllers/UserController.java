@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author JUAN
  */
 
-/**@CrossOrigin(origins = "http://localhost:3306")
+@CrossOrigin(origins = "http://localhost:3306")
 @RestController
 public class UserController {
     @GetMapping("/user")
@@ -26,4 +26,4 @@ public class UserController {
         return Collections.singletonMap("name", principal.getAttribute("name"));
     }
     
-}*/
+}

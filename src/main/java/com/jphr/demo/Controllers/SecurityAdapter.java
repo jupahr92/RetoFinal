@@ -14,7 +14,7 @@ import org.springframework.security.web.authentication.HttpStatusEntryPoint;
  */
 
 
-/**public class SecurityAdapter extends WebSecurityConfigurerAdapter{
+public class SecurityAdapter extends WebSecurityConfigurerAdapter{
     @Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests(
@@ -25,4 +25,4 @@ import org.springframework.security.web.authentication.HttpStatusEntryPoint;
                 http.cors().and().csrf().disable();
 	}
     
-}*/
+}
